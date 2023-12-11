@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&family=Work+Sans:wght@400;600;700&display=swap');
+@layer base{
+    body {
+        @apply sm:bg-CharcoalGrey;
+    }
+}
